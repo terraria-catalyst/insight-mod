@@ -1,0 +1,11 @@
+displayName = Silicate
+author = naka
+version = 0.1
+
+hideCode = false
+hideResources = false
+
+includePDB = true
+includeSource = true
+
+side = Client

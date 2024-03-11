@@ -1,0 +1,30 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silicate", "Silicate\Silicate.csproj", "{3E68A440-6BF6-48B7-83DD-B0430D306510}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01df345e-ef9f-46b3-b831-c78994c87f80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01df345e-ef9f-46b3-b831-c78994c87f80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01df345e-ef9f-46b3-b831-c78994c87f80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01df345e-ef9f-46b3-b831-c78994c87f80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3aa099c9-58b7-4c42-a654-f06182f6a144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3aa099c9-58b7-4c42-a654-f06182f6a144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3aa099c9-58b7-4c42-a654-f06182f6a144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3aa099c9-58b7-4c42-a654-f06182f6a144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E68A440-6BF6-48B7-83DD-B0430D306510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E68A440-6BF6-48B7-83DD-B0430D306510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E68A440-6BF6-48B7-83DD-B0430D306510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E68A440-6BF6-48B7-83DD-B0430D306510}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

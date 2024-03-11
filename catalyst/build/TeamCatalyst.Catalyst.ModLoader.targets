@@ -1,0 +1,14 @@
+<Project>
+
+    <Import Condition=" '$(ImportModLoader)' == 'enable' " Project="$(PathToModLoaderTargetsDir)tModLoader.targets"/>
+
+    <!-- Add tModLoader CodeAssist when enabled. -->
+    <ItemGroup>
+        <PackageReference Condition=" '$(CodeAssist)' == 'enable' " Include="tModLoader.CodeAssist" Version="0.1.*"/>
+    </ItemGroup>
+
+    <!-- Redefine the build task and only run if enabled. -->
+    <Target Condition=" '$(OverrideTMLBuildTask)' == 'true' " Name="BuildMod" AfterTargets="Build">
+        <Exec Command="dotnet $(tMLServerPath) -build $(ProjectDir) -eac $(TargetPath) -define &quot;$(DefineConstants)&quot; -unsafe $(AllowUnsafeBlocks) $(ExtraBuildModFlags)" WorkingDirectory="$(tMLSteamPath)"/>
+    </Target>
+</Project>
